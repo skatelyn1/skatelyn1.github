@@ -2,10 +2,23 @@ h1 {
   text-align: left;
   color: #000000;
   font-family: proxima-n-w01-reg,sans-serif;
-  font-size: 37px;
+  font-size: 40px;
   line-height: 1.3em;
 }
 
 h2 {
   text-align: left;
+  color: #000000;
+  font-family: proxima-n-w01-reg,sans-serif;
+  font-size: 20px;
+  line-height: 1.3em;
 }
+
+p {
+  text-align: left;
+  color: #000000;
+  font-family: proxima-n-w01-reg,sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+  
