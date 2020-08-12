@@ -11,6 +11,34 @@
         margin: 0 auto;
                                                         
       }
+      span:before
+      {
+      content: 'Product Designer';
+      animation: animate infinite 8s;
+      }
+      @keyframes animate
+      {
+      0%
+      {                                                     
+      content: 'Product Designer';
+      }  
+      25%
+      {                                                     
+      content: 'Test1';
+      }
+      50%
+      {                                                     
+      content: 'Test2';
+      }
+      75%
+      {                                                     
+      content: 'Test3';
+      }
+      100%
+      {                                                     
+      content: 'Test4';
+      }
+                                                           
       .flex-container {
         display: flex;
         flex-direction: row;
@@ -55,7 +83,7 @@
       </div>
       <div class="flex-column flex-centered">
         <div class="centered-item">
-          <h1>Bay Area Product Designer passionate about problem-solving to create better user experiences.</h1>
+          <h1>Bay Area <span></span>.</h1>
           <p>With over 10 years of experience, I have made an impact on design and user experience at both Fortune 500 companies and smaller startups. Now, you can find me delving into new contract gigs or mentoring designers via <a href="https://www.pathrise.com/">Pathrise</a>.</p>
           <h2>Let's connect!</h2>
           <p>If you want to know more or chat about a project you'd like help with, feel free to reach out.</p>
